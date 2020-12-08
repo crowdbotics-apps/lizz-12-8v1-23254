@@ -38,7 +38,7 @@ export default class Blank extends React.Component {
       <Button
         title="Shows an alert"
         color="#b39eff"
-        onPress={() => alert("Pressed!")}
+        onPress={() => alert("Custom message!")}
       />
     </View>
   )
